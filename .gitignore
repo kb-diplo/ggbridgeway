@@ -1,0 +1,222 @@
+# ===========================================
+# SECURITY - SENSITIVE FILES (NEVER COMMIT)
+# ===========================================
+
+# Database configuration (contains credentials)
+includes/config.php
+config.php
+database.php
+db_config.php
+
+# Environment files (may contain secrets)
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+
+# Backup configuration files
+*config*.bak
+*config*.backup
+config_backup.php
+
+# ===========================================
+# UPLOAD DIRECTORIES (USER CONTENT)
+# ===========================================
+
+# Upload directories (may contain sensitive user files)
+uploads/
+admin/uploads/
+files/
+media/
+user_uploads/
+
+# ===========================================
+# DEVELOPMENT & TESTING FILES
+# ===========================================
+
+# Development files
+*_test.php
+*_dev.php
+*_debug.php
+*_backup.php
+cleanup_*.php
+test_*.php
+debug_*.php
+dev_*.php
+
+# Testing directories
+tests/
+test/
+
+# ===========================================
+# LOGS & TEMPORARY FILES
+# ===========================================
+
+# Log files (may contain sensitive information)
+*.log
+logs/
+error_log
+php_errors.log
+access.log
+debug.log
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Cache files
+*.cache
+cache/
+cached/
+
+# ===========================================
+# IDE & EDITOR FILES
+# ===========================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PhpStorm / IntelliJ
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-*
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# ===========================================
+# OPERATING SYSTEM FILES
+# ===========================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ===========================================
+# DEPENDENCY MANAGEMENT
+# ===========================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Composer (PHP)
+vendor/
+composer.phar
+composer.lock
+
+# ===========================================
+# DATABASE & BACKUPS
+# ===========================================
+
+# Database dumps (may contain sensitive data)
+*.sql
+*.sql.gz
+*.sql.bak
+*.sql.backup
+database_backup_*
+db_backup_*
+backup_*.sql
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# ===========================================
+# SECURITY KEYS & CERTIFICATES
+# ===========================================
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.cert
+*.p12
+*.pfx
+
+# SSH keys
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+*.pub
+
+# API keys and secrets
+api_keys.txt
+secrets.txt
+credentials.txt
+
+# ===========================================
+# SESSION & RUNTIME FILES
+# ===========================================
+
+# PHP sessions
+sessions/
+session_*
+
+# Runtime files
+*.pid
+*.sock
+
+# ===========================================
+# LARGE MEDIA FILES (OPTIONAL)
+# ===========================================
+
+# Uncomment if you don't want to track large media files
+# *.mp4
+# *.avi
+# *.mov
+# *.mkv
+# *.wmv
+# *.flv
+# *.webm
+
+# Large image files
+# *.psd
+# *.ai
+# *.eps
+
+# ===========================================
+# PROJECT SPECIFIC
+# ===========================================
+
+# Auto-generated files
+auto_init.php
+prepare_for_github.php
+setup_*.php
+init_*.php
+
+# Development utilities
+switch_*.php
+fix_*.php
+update_*.php
+add_sample_*.php
