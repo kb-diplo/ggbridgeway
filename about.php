@@ -269,8 +269,8 @@ include 'includes/header.php';
                                 <?php if(empty($leader['image'])): ?>
                                     <div class="mt-4">
                                         <small class="text-muted">
-                                            <i class="fas fa-info-circle me-1"></i>
-                                            Photo can be added through admin panel
+                                            <i class="fas fa-camera me-1"></i>
+                                            Photo will be available soon
                                         </small>
                                     </div>
                                 <?php endif; ?>
@@ -293,8 +293,8 @@ include 'includes/header.php';
                             <p class="lead">Leading Githunguri Bridgeway Preparatory School with dedication to educational excellence and student development. Committed to providing quality education that nurtures young minds and builds strong foundations for future success.</p>
                             <div class="mt-4">
                                 <small class="text-muted">
-                                    <i class="fas fa-info-circle me-1"></i>
-                                    Leadership information managed through admin panel
+                                    <i class="fas fa-users me-1"></i>
+                                    Leadership profiles will be updated regularly
                                 </small>
                             </div>
                         </div>

@@ -309,8 +309,8 @@ include 'includes/header.php';
             <!-- Message for admin to add more images -->
             <div class="text-center mt-4">
                 <div class="alert alert-info d-inline-block">
-                    <i class="fas fa-info-circle me-2"></i>
-                    <strong>More photos coming soon!</strong> Visit our admin panel to add more gallery images.
+                    <i class="fas fa-camera me-2"></i>
+                    <strong>More photos coming soon!</strong> We're constantly updating our gallery with new memories and moments from school life.
                 </div>
             </div>
         <?php endif; ?>
