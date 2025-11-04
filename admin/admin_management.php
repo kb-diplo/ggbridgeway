@@ -147,7 +147,7 @@ include 'includes/admin_header.php';
     <div class="row">
         <?php include 'includes/admin_sidebar.php'; ?>
         
-        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <main>
             <div class="admin-header">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center">
                     <h1 class="h2">

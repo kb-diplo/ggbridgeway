@@ -76,10 +76,18 @@
         </li>
         
         <li class="nav-item">
+            <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'enhanced_content.php' ? 'active' : ''; ?>" 
+               href="enhanced_content.php">
+                <i class="fas fa-edit"></i>
+                Enhanced Content Manager
+            </a>
+        </li>
+        
+        <li class="nav-item">
             <a class="nav-link <?php echo basename($_SERVER['PHP_SELF']) == 'content.php' ? 'active' : ''; ?>" 
                href="content.php">
                 <i class="fas fa-edit"></i>
-                Website Content
+                Website Content (Legacy)
             </a>
         </li>
         

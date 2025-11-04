@@ -157,12 +157,6 @@
         </div>
     </div>
 
-    <!-- WhatsApp Button -->
-    <a href="https://wa.me/<?php echo WHATSAPP_NUMBER; ?>?text=Hello%20Githunguri%20Bridgeway%20Preparatory%20School" 
-       class="whatsapp-btn" target="_blank" title="Chat on WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-    
     <!-- Scroll to Top Button -->
     <button class="scroll-to-top" id="scrollToTop" title="Go to top">
         <i class="fas fa-chevron-up"></i>

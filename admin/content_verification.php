@@ -13,7 +13,7 @@ include 'includes/admin_header.php';
     <div class="row">
         <?php include 'includes/admin_sidebar.php'; ?>
         
-        <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+        <main>
             <div class="admin-header">
                 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center">
                     <h1 class="h2">
@@ -40,9 +40,9 @@ include 'includes/admin_header.php';
                                         <div class="card-body">
                                             <ul class="list-unstyled mb-0">
                                                 <li>✅ <strong>Hero Slider</strong> - <a href="banners.php">Manage Banners</a></li>
-                                                <li>✅ <strong>Hero Title/Text</strong> - <a href="content.php">Website Content</a></li>
+                                                <li>✅ <strong>Hero Title/Text</strong> - <a href="enhanced_content.php">Enhanced Content Manager</a></li>
                                                 <li>✅ <strong>Notices Section</strong> - <a href="notices.php">Manage Notices</a></li>
-                                                <li>✅ <strong>Statistics</strong> - <a href="content.php">Website Content</a></li>
+                                                <li>✅ <strong>Statistics</strong> - <a href="enhanced_content.php">Enhanced Content Manager</a></li>
                                                 <li>✅ <strong>Featured Events</strong> - <a href="events.php">Manage Events</a></li>
                                                 <li>✅ <strong>Gallery Preview</strong> - <a href="gallery.php">Manage Gallery</a></li>
                                             </ul>
