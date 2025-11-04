@@ -60,12 +60,6 @@ try {
             created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         )");
         
-        // Create default admin account
-        $default_password = password_hash('admin123', PASSWORD_DEFAULT);
-        $stmt = $pdo->prepare("INSERT IGNORE INTO admin_accounts (username, password, email, full_name, role, is_active) VALUES (?, ?, ?, ?, ?, 1)");
-        $stmt->execute(['admin', $default_password, 'admin@bridgewayschool.ac.ke', 'Default Administrator', 'super_admin']);
-        
-        // Add sample notices
         $stmt = $pdo->prepare("INSERT IGNORE INTO notices (title, content, type, show_on_homepage, is_active) VALUES (?, ?, ?, ?, 1)");
         $stmt->execute(['Welcome to Our School Website', 'We are excited to share our new website with the community. Stay updated with school news and events.', 'success', 1]);
         
