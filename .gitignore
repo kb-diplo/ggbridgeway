@@ -206,6 +206,19 @@ session_*
 # *.eps
 
 # ===========================================
+# DEPLOYMENT FILES (HOST-SPECIFIC)
+# ===========================================
+
+# Hosting-specific configuration files
+*config_infinityfree.php
+*config_production.php
+*config_live.php
+*config_hosting.php
+DEPLOYMENT_GUIDE.md
+deployment_*.md
+hosting_*.md
+
+# ===========================================
 # PROJECT SPECIFIC
 # ===========================================
 
